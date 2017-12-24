@@ -17,36 +17,37 @@ class Main extends React.Component {
           <h2 className="major">Intro</h2>
           <span className="image main"><img src={pic01} alt="" /></span>
           <p>I am a programmer and musician who loves to talk about tech, and loves to learn even more.</p>
-          <p>I've been programming and building systems for ~ 10 years now. Starting from sysadmin jobs in college through founding my own consultancy in 2014, it continues to be a breathtaking and interesting ride.</p>
-          <p>My particular penchant is distributed (concurrent or parallel) systems, reinforcement learning and generally anything that aggregates and engineers database architectures, APIs and other backend joys. In general I tend to prefer microservices and strongly typed functional paradigm.</p>
-          <p>On the theoretical side, I have an intense interest in deep RL, probabilistic graphical models and logic, category theory, and homotopy type theory. If something type-checks -- I might drop the mic and walk away.</p>
-          <p>My tools of choice include Go, Rust, TypeScript and C++. I try to read a fair bit of Haskell, and would love to work with it professionally but have not had the chance. I will read and write any code. It's all wonderful and terrible; code is code is code as far as I am concerned.</p>
+          <p>I've been writing code and building computer systems for ~ 10 years now. Starting from sysadmin jobs in college through founding my own consultancy in 2014, it continues to be a breathtaking and interesting ride.</p>
+          <p>My particular penchant is distributed (concurrent or parallel) systems, reinforcement learning and generally anything that aggregates and engineers big data, APIs and other backend joys. In general I tend to prefer microservices and strongly typed languages, leaning more towards the functional paradigm than anything else.</p>
+          <p>In the field, I have a few varied interests. On the practical side I would mention <a href="https://www.youtube.com/playlist?list=PLWU0iAMOPgpqeph3680L4jBslXVLzFbw3">deep reinforcement learning</a>, <a href="https://mitpress.mit.edu/books/probabilistic-graphical-models">probabilistic graphical models</a> and <a href="http://alchemy.cs.washington.edu/">markov logic</a>.On the theoretical side: <a href="https://github.com/hmemcpy/milewski-ctfp-pdf">category theory</a>, and <a href="https://homotopytypetheory.org/book/">homotopy type theory</a> are my favorite things to explore.</p>
+          <p>My tools of choice include <a href="https://golang.org">Go</a>, <a href="https://www.rust-lang.org">Rust</a>, <a href="https://www.typescriptlang.org/">TypeScript</a> and <a href="http://www.cplusplus.com">C++</a>, along with <a href="https://python.org">Python</a> and <a href="https://www.tensorflow.org/">TensorFlow</a> for data science/modeling. I try to read a fair bit of <a href="https://haskell.org">Haskell</a>, and would love to work with it professionally but have not had the chance. I will read and write any code.</p>
           {close}
         </article>
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Work</h2>
           <span className="image main"><img src={pic02} alt="" /></span>
-          <a href="https://github.com/damienstanton"><span className="fa fa-github"> Much of my work is on GitHub</span></a>
-          <p>In brief summary, I have always been a back-end systems guy. My first programming language was VB.net, followed by C and Java. My main language for the first five years of my career was C#, and I spent a lot of time automating enterprise systems in Java, C#, Python and Powershell</p>
-          <p>Since 2013, my favorite language has been Go. I've written nearly all Go services since 2014 (along with the odd Java project here and there).</p>
-          <p>Some of my interest in deep RL and markov logic requires C++ and/or Octave so I have been known to use those ecosystems.</p>
-          <p>As of the last couple of years I have also done an increasing amount of work in TypeScript/ES6. Although perhaps not up to my lofty functional standards, the Node world has come quite a long way and is a perfectly viable platform for big, complex distributed systems.</p>
+          <a href="https://github.com/damienstanton"><span className="fa fa-github"> View my free and open-source work on GitHub.</span></a>
+          <br></br>
+          <br></br>
+          <p>In my day job at <a href="https://wirelessregistry.com">Wireless Registry</a>, I build concurrent Go microservices and tools that help process IoT data at big-data scale.</p>
+          <p>Some of my personal projects have included building a winning NCAA "march madness" prediction algorithm, building voice user interfaces for the web, dabbles in cryptocurrency mining/smart-contracts, and exploring how to turn my own car self-driving via <a href="https://comma.ai">Comma.ai</a>'s revolutionary hardware &amp; software.</p>
           {close}
         </article>
 
         <article id="about" className={`${this.props.article === 'about' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">About</h2>
           <span className="image main"><img src={pic03} alt="" /></span>
-          <p>I am a native of the Washington, D.C. Metro Area. Outside of tech, I've played guitar for almost 20 years, and am currently in a band called <a href="https://mirrorfactorydc.com/">Mirror Factory</a>.</p>
+          <p>I am a native of the Washington, D.C. Metro Area.</p>
+          <p>Outside of tech, I've played guitar for almost 20 years, and am currently in a band called <a href="https://mirrorfactorydc.com/">Mirror Factory</a>.</p>
           {close}
         </article>
 
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{ display: 'none' }}>
           <h2 className="major">Contact</h2>
-          <a href="https://twitter.com/damienstanton"><span className="fa fa-twitter"> Tweets I've twote.</span></a>
+          <a href="https://twitter.com/damienstanton"><span className="fa fa-twitter">  Follow me on Twitter.</span></a>
           <p></p>
-          <a href="mailto:info@damien.codes"><span className="fa fa-envelope"> Send me an electronic letter.</span></a>
+          <a href="mailto:info@damien.codes"><span className="fa fa-envelope"> Send me an email.</span></a>
           {close}
         </article >
 
